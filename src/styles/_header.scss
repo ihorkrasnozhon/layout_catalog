@@ -1,5 +1,3 @@
-$blue-color: #00acdc;
-
 .catalog-header {
   background-color: white;
   display: flex;
@@ -11,10 +9,6 @@ $blue-color: #00acdc;
 }
 
 .catalog-header__logo {
-  display: flex;
-  justify-content: flex-start;
-  top: 10px;
-  left: 50px;
   height: 40px;
   width: 40px;
 }
@@ -41,7 +35,7 @@ $blue-color: #00acdc;
 }
 
 .catalog-header__link--active {
-  color: $blue-color;
+  color: $primary-color;
 }
 
 .catalog-header__link--active::after {
@@ -51,9 +45,9 @@ $blue-color: #00acdc;
   bottom: -2px;
   width: 100%;
   height: 4px;
-  background-color: $blue-color;
+  background-color: $primary-color;
 }
 
 .catalog-header__link:hover {
-  color: $blue-color;
+  color: $primary-color;
 }
